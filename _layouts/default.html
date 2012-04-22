@@ -42,15 +42,15 @@
         </div>
     </div>
     <div id="menu" class="png_bg">
-        [% PROCESS navmenu.comp %]
-        [% IF 0 %]
-        <div class="search">
-          <form id="search_form" action="#" method="get">
-            <input id="search_input" type="text" value="" name="s">
-            <input id="search_submit" type="submit" value="" name="SearchSubmit">
-          </form>
-        </div>
-        [% END %]
+      {% include navmenu.html %}
+      {% if 0 %}
+      <div class="search">
+        <form id="search_form" action="#" method="get">
+          <input id="search_input" type="text" value="" name="s">
+          <input id="search_submit" type="submit" value="" name="SearchSubmit">
+        </form>
+      </div>
+      {% endif %}
     </div>
     <!-- /Header -->
 
@@ -110,7 +110,7 @@ DO THIS
         <p>
           Also see <a href="http://github.com/chilts/">chilts</a>' GitHub projects too!
         </p>
-[% IF 0 %]
+{% IF 0 %}
         <form action="mail.php" id="subscribe-form" method="post">
           <input type="text" name="email" id="email" value="Type in your email" title="Type in your email" />
           <input name="submitted" id="submit" value="Submit" class="superbutton" type="submit" />
@@ -123,7 +123,7 @@ DO THIS
           <li><a href="#"><img src="/s/social/youtube_16.png" alt="" /></a></li>
           <li><a href="#"><img src="/s/social/vimeo_16.png" alt="" /></a></li>
         </ul>
-[% END %]
+{% END %}
       </div>
       <div class="gs_2 omega widget">
         <h4 class="widgettitle">Our Products</h4>
@@ -131,8 +131,8 @@ DO THIS
         <ul>
           <li><a href="http://www.hex.gd/">hex.gd</a></li>
           <li><a href="http://www.appsdns.net/">AppsDNS.net</a></li>
-          [% IF 0 %]<li><a href="http://git.appsattic.com/">Our Git Repos</a></li>[% END %]
-          [% IF 0 %]<li><a href="http://github.com/appsattic/">AppsAttic @ GitHub</a></li>[% END %]
+          {% IF 0 %}<li><a href="http://git.appsattic.com/">Our Git Repos</a></li>{% END %}
+          {% IF 0 %}<li><a href="http://github.com/appsattic/">AppsAttic @ GitHub</a></li>{% END %}
         </ul>
 
       </div>
