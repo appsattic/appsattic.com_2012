@@ -1,0 +1,10 @@
+{% if data.breadcrumbs %}
+<div class="container_gamma breadcrumbs">
+  <p>
+{% for l_level in blat.parents %}
+    <span>&raquo;</span><a href="[% l_level.url | html %]">{{ l_level.title }}</a>
+{% endfor %}
+    <span>&raquo;</span>{{ data.title }}
+  </p>
+</div>
+{% endif %}
