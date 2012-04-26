@@ -33,7 +33,127 @@
 
 <body>
 
-    {{ content }}
+  <div id="container">
+    <!-- Header -->
+    <div id="header">
+        <div id="logo"><a href="index.html"><img src="http://cdn.appsattic.com/logo/appsattic-4.png" alt="" /></a></div>
+        <div id="personal_data">
+            <p>Require some expertise? &raquo; <span><a href="/contact.html">Contact Us</a></span></p>
+            <p>Our Open Source Projects &raquo; <span><a href="http://github.com/appsattic/">AppsAttic @ GitHub</a></span></p>
+            <p>Our NodeJS Modules &raquo; <span><a href="http://search.npmjs.org/#/_author/Andrew%20Chilton">Andrew Chilton @ npm</a></span></p>
+            <!-- <p>Free DNS Hosting &raquo; <span><a href="http://www.appsdns.net/">AppsDNS.net</a></span></p> -->
+        </div>
+    </div>
+    <div id="menu" class="png_bg">
+      {% comment %}{% include navmenu.html %}{% endcomment %}
+      {% comment %}
+      <div class="search">
+        <form id="search_form" action="#" method="get">
+          <input id="search_input" type="text" value="" name="s">
+          <input id="search_submit" type="submit" value="" name="SearchSubmit">
+        </form>
+      </div>
+      {% endcomment %}
+    </div>
+    <!-- /Header -->
+
+    <!-- .main -->
+    <div class="main png_bg">
+        <!-- .inner_main -->
+        <div class="inner_main">
+
+{{ content }}
+
+        </div>
+        <!-- /.inner_main -->
+    </div>
+    <!-- /.main -->
+    <div class="endmain png_bg"></div>
+
+    <!-- Footer styling transition (the stripe). You can remove it if you don't like it -->
+    <div class="stripe png_bg"></div>
+    <!-- /Footer styling transition -->
+
+    <!-- Footer -->
+    <div id="footer_top" class="png_bg"></div>
+    <div id="footer" class="png_bg">
+
+      <div class="gs_2 widget">
+        <h4 class="widgettitle">Pages</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="products.html">Products</a></li>
+
+!!!!!!!!!
+DO THIS
+!!!!!!!!!!
+
+          <li><a href="about.html">Features</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="gs_4 widget">
+        <img src="/s/asset/ds.jpg" alt="" class="border_magic alignleft no_bottom_margin" />
+        <h4 class="widgettitle">Contact us!</h4>
+        <p>Got any questions? Need expertise or help? Get in touch with us!</p>
+        <p>
+          <strong>by phone:</strong> +64 21 891 681<br />
+          <strong>by mail:</strong> <a href="mailto:chilts@appsattic.com">chilts@appsattic.com</a><br />
+          <strong>or by our:</strong> <a href="/contact.html">Contact Page</a>
+        </p>
+      </div>
+      <div class="gs_4 widget">
+        <h4 class="widgettitle">Our Open Source Projects</h4>
+        <p>
+          We're proud of the fact that we both use and contribute to open source projects. Take a look at
+          our <a href="http://github.com/appsattic/">AppsAttic</a> @ GitHub repositories to find all of our
+          projects.
+        </p>
+        <p>
+          Also see <a href="http://github.com/chilts/">chilts</a>' GitHub projects too!
+        </p>
+{% comment %}
+        <form action="mail.php" id="subscribe-form" method="post">
+          <input type="text" name="email" id="email" value="Type in your email" title="Type in your email" />
+          <input name="submitted" id="submit" value="Submit" class="superbutton" type="submit" />
+        </form>
+        <ul class="icons">
+          <li><a href="http://www.facebook.com/pages/designsentry/110639872348300"><img src="/s/social/facebook_16.png" alt="designsentry on facebook" /></a></li>
+          <li><a href="http://twitter.com/designsentry"><img src="/s/social/twitter_16.png" alt="designsentry on twitter" /></a></li>
+          <li><a href="#"><img src="/s/social/myspace_16.png" alt="" /></a></li>
+          <li><a href="#"><img src="/s/social/picasa_16.png" alt="" /></a></li>
+          <li><a href="#"><img src="/s/social/youtube_16.png" alt="" /></a></li>
+          <li><a href="#"><img src="/s/social/vimeo_16.png" alt="" /></a></li>
+        </ul>
+{% endcomment %}
+      </div>
+      <div class="gs_2 omega widget">
+        <h4 class="widgettitle">Our Products</h4>
+        <p>Click for more info about our Open Source projects.</p>
+        <ul>
+          <li><a href="http://www.hex.gd/">hex.gd</a></li>
+          <li><a href="http://www.appsdns.net/">AppsDNS.net</a></li>
+          {% comment %}<li><a href="http://git.appsattic.com/">Our Git Repos</a></li>{% endcomment %}
+          {% comment %}<li><a href="http://github.com/appsattic/">AppsAttic @ GitHub</a></li>{% endcomment %}
+        </ul>
+
+      </div>
+    </div>
+    <div id="footer_bottom" class="png_bg"><p>Copyright &copy; <a href="http://www.appsattic.com/">AppsAttic Ltd</a> 2010-2011. All rights reserved.</p></div>
+    <!-- /footer -->
+
+  </div> <!--! end of #container -->
+
+  <!-- JavaScript -->
+  <script src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
+  <script src="/s/js/plugins.js"></script>
+  <script src="/s/js/script.js"></script>
+
+  <!--[if lt IE 7 ]>
+    <script src="/s/js/dd_belatedpng.js"></script>
+    <script> DD_belatedPNG.fix('img, .png_bg, .sidebar, .sidebar ul, .sidebar ul li, .sidebar ul li a'); //fix any <img> or .png_bg background-images </script>
+  <![endif]-->
 
 </body>
 </html>
