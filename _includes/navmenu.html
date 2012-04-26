@@ -1,7 +1,7 @@
 <!-- navmenu -->
 <ul>
   {% for l1_item in site.navmenu %}
-    {% comment %}{% next if l1_item.skip %}{% endcomment %}
+    {% comment %} next if l1_item.skip {% endcomment %}
   <li>
     <a href="{{ l1_item.url }}"{% if l1_item.id == data.id %} class="selected"{% endif %}>{{ l1_item.title }}</a>
     {% if l1_item.menu %}
