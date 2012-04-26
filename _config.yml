@@ -10,4 +10,8 @@ title: AppsAttic
 tagline: Your Business. Our Apps.
 breadcrumbs: 1
 
+url : http://appsattic.github.com
+permalink: /:categories/:title.html
+paginator: false
+
 ## --------------------------------------------------------------------------------------------------------------------
