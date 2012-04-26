@@ -1,17 +1,18 @@
 ## --------------------------------------------------------------------------------------------------------------------
 # Jekyll
-auto: true
-exclude: [README.md]
+
+auto : true
+exclude : [README.md]
 
 ## --------------------------------------------------------------------------------------------------------------------
 # Site
 
-title: AppsAttic
-tagline: Your Business. Our Apps.
-breadcrumbs: 1
+title : AppsAttic
+tagline : Your Business. Our Apps.
+breadcrumbs : 1
 
 url : http://appsattic.github.com
-permalink: /:categories/:title.html
-paginator: false
+permalink : /:categories/:title.html
+paginator : false
 
 ## --------------------------------------------------------------------------------------------------------------------
