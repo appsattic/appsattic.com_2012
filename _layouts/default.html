@@ -45,8 +45,8 @@
         </div>
     </div>
     <div id="menu" class="png_bg">
-      {% include navmenu.html %}
       {% comment %}
+      {% include navmenu.html %}
       <div class="search">
         <form id="search_form" action="#" method="get">
           <input id="search_input" type="text" value="" name="s">
@@ -82,15 +82,12 @@
         <h4 class="widgettitle">Pages</h4>
         <ul>
           <li><a href="/">Home</a></li>
+{% comment %}
           <li><a href="products.html">Products</a></li>
-
-!!!!!!!!!
-DO THIS
-!!!!!!!!!!
-
           <li><a href="about.html">Features</a></li>
           <li><a href="blog.html">Blog</a></li>
           <li><a href="contact.html">Contact</a></li>
+{% endcomment %}
         </ul>
       </div>
       <div class="gs_4 widget">
