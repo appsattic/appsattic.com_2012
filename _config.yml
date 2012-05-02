@@ -61,8 +61,8 @@ navmenu:
   - id: /contact.html
     title: Contact
     url: /contact.html
-  - id: abouts
-    title: About
-    url: /about.html
+#  - id: abouts
+#    title: About
+#    url: /about.html
 
 ## --------------------------------------------------------------------------------------------------------------------
