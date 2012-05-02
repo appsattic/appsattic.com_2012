@@ -19,38 +19,41 @@ navmenu:
   - id: home
     title: Home
     url: /
-  - id: /product/
-    title: Products
-    url: /product/
+#  - id: /product/
+#    title: Products
+#    url: /product/
     menu:
-      - id: /product/appsdns-net.html
-        title: AppsDNS.net
-        url: /product/appsdns-net.html
-  - id: /project/
-    title: Open Source Projects
-    url: /open-source/
-    menu:
-      - id: /open-source/awssum/
-        title: AwsSum
-        url: /open-source/awssum/
-      - id: /open-source/awssum-utils/
-        title: AwsSum Utils
-        url: /open-source/awssum-utils/
-      - id: /open-source/pwkeepr/
-        title: PWKeepr
-        url: /open-source/pwkeepr/
-      - id: /open-source/dropfile/
-        title: DropFile
-        url: /open-source/dropfile/
-      - id: /open-source/dropmail/
-        title: DropMail
-        url: /open-source/dropmail/
-      - id: /open-source/conduit/
-        title: CGI::Conduit
-        url: /open-source/conduit/
-      - id: /open-source/string-random-niceurl/
-        title: String::Random::NiceURL
-        url: /open-source/string-random-niceurl/
+      - id: /product/cssminifier.html
+        title: cssminifier.com
+        url: /product/cssminifier.html
+#      - id: /product/appsdns-net.html
+#        title: AppsDNS.net
+#        url: /product/appsdns-net.html
+#  - id: /project/
+#    title: Open Source Projects
+#    url: /open-source/
+#    menu:
+#      - id: /open-source/awssum/
+#        title: AwsSum
+#        url: /open-source/awssum/
+#      - id: /open-source/awssum-utils/
+#        title: AwsSum Utils
+#        url: /open-source/awssum-utils/
+#      - id: /open-source/pwkeepr/
+#        title: PWKeepr
+#        url: /open-source/pwkeepr/
+#      - id: /open-source/dropfile/
+#        title: DropFile
+#        url: /open-source/dropfile/
+#      - id: /open-source/dropmail/
+#        title: DropMail
+#        url: /open-source/dropmail/
+#      - id: /open-source/conduit/
+#        title: CGI::Conduit
+#        url: /open-source/conduit/
+#      - id: /open-source/string-random-niceurl/
+#        title: String::Random::NiceURL
+#        url: /open-source/string-random-niceurl/
 #  - id: client
 #    skip: 1
 #    title: Our Clients
