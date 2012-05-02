@@ -19,9 +19,9 @@ navmenu:
   - id: home
     title: Home
     url: /
-#  - id: /product/
-#    title: Products
-#    url: /product/
+  - id: /product/
+    title: Products
+    url: /product/
     menu:
       - id: /product/cssminifier.html
         title: cssminifier.com
