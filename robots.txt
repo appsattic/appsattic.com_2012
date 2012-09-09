@@ -1,0 +1,4 @@
+User-Agent: *
+Disallow: /node-awssum/
+
+Sitemap: http://appsattic.com/sitemap.txt
